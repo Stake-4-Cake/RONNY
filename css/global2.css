@@ -1,0 +1,607 @@
+@font-face {
+	font-family: 'Chunq';
+	src: url('../fonts/Chunq.ttf');
+}
+@font-face {
+	font-family: 'ComicKings';
+	src: url('../fonts/Comic%20Kings.ttf');
+}
+@font-face {
+	font-family: 'DiloWorld';
+	src: url('../fonts/DiloWorld.ttf');
+}
+@font-face {
+	font-family: 'KraashB';
+	src: url('../fonts/Kraash%20Black.ttf');
+}
+@font-face {
+	font-family: 'Kraash';
+	src: url('../fonts/Kraash.ttf');
+}
+@font-face {
+	font-family: 'Powerful';
+	src: url('../fonts/Powerful.ttf');
+}
+@font-face {
+	font-family: 'ComicalCartoon';
+	src: url('../fonts/Comical%20Cartoon.ttf');
+}
+@font-face {
+	font-family: 'EldesCordel';
+	src: url('../fonts/EldesCordel-Demo.otf');
+}
+@font-face {
+	font-family: 'GOODGIRL';
+	src: url('../fonts/GOODGIRL.ttf');
+}
+@font-face {
+	font-family: 'JumboSale';
+	src: url('../fonts/JumboSale%20Trial.otf');
+}
+@font-face {
+	font-family: 'Ketchum';
+	src: url('../fonts/Ketchum.otf');
+}
+@font-face {
+	font-family: 'surtshowDEMO';
+	src: url('../fonts/surtshowDEMO.otf');
+}
+@font-face {
+	font-family: 'TropicalJungle';
+	src: url('../fonts/TropicalJungle.ttf');
+}
+
+body {
+	background: url('../images/background.png') no-repeat top center;
+	font-family: "GOODGIRL", sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	background-color: #0c0d11;
+	letter-spacing: 1px;
+}
+
+.link {
+	color: #FFF;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #0c0d11;
+}
+
+.title {
+	margin-top: 30px;
+	border-radius: 10px;
+	font-family: "GOODGIRL", sans-serif;
+
+}
+
+.steve-icon img {
+	margin-top: 20px;
+}
+
+.steve-title {
+	font-family: "GOODGIRL", sans-serif;
+	font-size: 90px;
+
+}
+
+.steve-text {
+	font-family: "Dela Gothic One", sans-serif;
+	font-size: 12px;
+	margin-top: -10px;
+	color: #0c0f14;
+}
+
+.solana-logo {
+	margin-top: 0px;
+}
+
+.steve-context {
+	margin-top: 100px;
+	font-size: 25px;
+}
+
+.most-wanted {
+	font-family: "Powerful", sans-serif;
+	font-size: 28px;
+
+}
+
+.mw-text {
+	font-size: 22px;
+}
+
+.btn-buynow {
+	margin-top: 30px;
+	font-size: 30px;
+	padding-top: 9px;
+	color: #0c0d11;
+	border: 2px solid #0c0d11;
+
+}
+
+.btn-buynow:hover {
+	border: 2px solid #FFF;
+}
+
+.steve-contract {
+	margin-top: 50px;
+	border: 2px solid #f47721;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+}
+
+.ptitle {
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.otitle {
+	font-size: 80px;
+	margin-top: 200px;
+	margin-bottom: 30px;
+	color: #0c0d11;
+}
+
+.btitle {
+	font-size: 120px;
+	margin-top: 30px;
+}
+
+.exchanges {
+	margin-bottom: 20px;
+}
+
+.second {
+	background: url('../images/background-2-2.png') no-repeat top center;
+	padding-bottom: 40px;
+}
+
+.supply {
+	font-size: 150px;
+	margin-top: -30px;
+	text-shadow: -5px -5px 1px #FFF;
+}
+
+.tax {
+	font-family: "Chunq", sans-serif;
+	text-shadow: -3px -3px 1px #FFF;
+}
+
+.text-s {
+	font-size: 60px;
+	margin-top: -40px;
+	color: #0c0d11;
+}
+
+.text-t {
+	font-size: 60px;
+	margin-top: -30px;
+	color: #fff;
+}
+
+.third {
+	background: url('../images/bg-2-3.png')  no-repeat top center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.social {
+	border: 2px solid #f47721;
+	padding: 6px 15px 6px 15px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #FFF;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.social img {
+	width: 30px;
+}
+
+.social:hover {
+	color: #f47721;
+	border: 2px solid #fff;
+}
+
+.btn-community {
+	margin-top: 30px;
+	background-color: #00d2ff;
+	font-size: 40px;
+}
+
+.btn-community:hover {
+	background: #0e98c0;
+	color: #FFF;
+}
+
+.fourth {
+	background: url('../images/background-2-2.png')  no-repeat top center;
+}
+
+.httitle {
+	font-size: 35px;
+	color: #0c0d11;
+}
+
+.howto {
+	background: url('../images/big-hand.png') no-repeat;
+	width: 500px;
+	height: 555px;
+	padding-left: 60px;
+	padding-top: 70px;
+	margin-right: 10px;
+}
+
+.htbox {
+	background: #000;
+	width: 250px;
+	margin-left: 101px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Dela Gothic One", sans-serif;
+}
+
+.ht-tbox {
+	margin-top: 120px;
+	padding: 10px 20px 10px 20px;
+	border: 3px solid #0c0d11;
+	border-radius: 20px;
+	height: 400px;
+	background: #0c0d11;
+}
+
+.fifth {
+	font-family: "GOODGIRL", sans-serif;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	letter-spacing: 5px;
+	font-size: 18px!important;
+}
+
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.rainbow_text_animated  {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+.btn-buynow {
+		display: none;
+	}
+}
+	.steve-title {
+		margin-top: -10px;
+	}
+.nav {
+	display: none;
+}
+.steve-text {
+	font-size: 12px;
+}
+.steve-title {
+	font-size: 70px;
+}
+	.steve-jail img {
+		width:100%;
+		margin-top: -30px;
+	}
+		.most-wanted {
+		font-size: 30px;
+		text-align: center;
+		margin-top: -110px;
+	}
+
+	.mw-text {
+		font-size: 18px;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.steve-contract {
+		font-size: 8px;
+	}
+
+	.ptitle {
+		font-size: 40px;
+	}
+	.otitle {
+		font-size: 40px;
+	}
+	.supply {
+		font-size: 40px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	.text-s {
+		font-size: 30px;
+		margin-top: -20px;
+	}
+	.text-t {
+		font-size: 30px;
+		margin-top: 0px;
+	}
+
+	.social {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	.btitle {
+		font-size: 40px;
+	}
+
+	.fifth {
+		font-size: 14px;
+	}
+
+	.ht-tbox {
+		margin-bottom: 20px;
+	}
+
+	.ht-tbox iframe {
+		padding-bottom:5%;
+	}
+
+	.btn-community {
+		font-size: 22px;
+	}
+
+@media only screen and (min-width: 400px) {
+.btn-buynow {
+		display: none;
+	}
+	.nav {
+		display: none;
+	}
+	.steve-title {
+		margin-top: -10px;
+	}
+	.steve-jail img {
+		width:100%;
+		margin-top: -30px;
+	}
+
+	.most-wanted {
+		font-size: 30px;
+		text-align: center;
+		margin-top: -110px;
+	}
+
+	.mw-text {
+		font-size: 18px;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.otitle {
+		font-size: 60px;
+	}
+
+	.fifth {
+		font-size: 18px;
+	}
+
+	.btn-community {
+		font-size: 26px!important;
+	}
+	.steve-contract {
+		font-size: 12px;
+	}
+	.supply {
+		font-size: 60px;
+		margin-bottom: 20px;
+		margin-top: -20px;
+	}
+	.text-t {
+		font-size: 40px;
+		margin-top: -10px;
+	}
+	.social {
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+	.btitle {
+		font-size: 60px;
+	}
+	.ht-tbox iframe {
+		padding-bottom:57%;
+	}
+	.ht-tbox {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.nav {
+		display: block;
+	}
+	.btn-buynow {
+		display: none;
+	}
+	.title {
+		font-size: 18px;
+		padding-top: 10px;
+	}
+	.link {
+		font-size: 24px;
+	}
+	.steve-title {
+		margin-top: -10px;
+		font-size: 90px;
+	}
+	.btn-community {
+		font-size: 40px!important;
+	}
+	.most-wanted {
+		font-size: 14px;
+		margin-top: -30px;
+		text-align: start;
+	}
+
+	.mw-text {
+		font-size: 12px;
+		margin-top: 0px;
+		text-align: start;
+	}
+
+	.steve-jail img {
+		width: 250px;
+	}
+	.steve-contract {
+		font-size: 20px;
+	}
+
+	.text-s {
+		font-size: 60px;
+	}
+
+	.supply {
+		font-size: 100px;
+	}
+
+	.ht-tbox {
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	.ht-tbox iframe {
+		padding-bottom:76%;
+	}
+	.fifth {
+		font-size: 16px;
+		padding-bottom: 40px;
+	}
+		.link {
+		font-size: 18px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) {
+	.btn-buynow {
+		display: block;
+	}
+	.steve-contract {
+		font-size: 25px;
+	}
+	.steve-jail img {
+		width: 350px;
+	}
+	.title {
+		padding-top: 10px;
+		margin-top: 35px;
+	}
+
+	.btn-buynow {
+		font-size: 20px;
+		height: 50px;
+		margin-top: 35px;
+	}
+
+	.link {
+		font-size: 20px;
+		
+	}
+	.steve-icon {
+		padding-top: 10px;
+	}
+	.most-wanted {
+		margin-top: -10px;
+		font-size: 18px;
+	}
+
+	.mw-text {
+	font-size: 18px;
+	margin-top: 20px;
+	}
+
+	.supply {
+	font-size: 120px;
+	}
+
+	.ht-tbox iframe {
+		padding-bottom:43%
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.title {
+	margin-top: 30px;
+	border-radius: 10px;
+	}
+
+	.link {
+		font-size: 25px;
+	}
+
+	.steve-icon img {
+		margin-top: 20px;
+	}
+	.most-wanted {
+		font-size: 20px;
+	}
+
+	.mw-text {
+	font-size: 20px;
+	}
+
+	.ht-tbox iframe {
+		padding-bottom: 68%;
+	}
+
+	.fifth {
+		font-size: 24px;
+	}
+	.supply {
+	font-size: 150px;
+	margin-top: -30px;
+	text-shadow: -5px -5px 1px #FFF;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.most-wanted {
+	font-family: "Powerful", sans-serif;
+	font-size: 28px;
+	margin-top: 30px;
+	}
+	.link {
+		font-size: 25px;
+	}
+
+	.mw-text {
+		font-size: 19px;
+	}
+
+	.ht-tbox iframe {
+		padding-bottom: 22%;
+	}
+}
